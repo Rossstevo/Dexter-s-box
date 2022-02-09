@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:coral; 
+}
+
+.frame {
+    position: relative;
+    /* border: 10px solid black; */
+    width: 100vw;
+    height: 62vh;
+    top: 60px;
+    left: auto;
+}
+
+button {
+    position: relative;
+    border: 30px solid black;
+    width: 150px;
+    height: 150px;
+    left: 30%;
+    top: 50%;
+    cursor: pointer;
+}
+
+.counter {
+    font-family: 'Russo One', sans-serif;
+    font-size: 160px;
+    text-align:center;
+    margin-top: 40px;
+}
+
+.start {
+    position: absolute;
+    border: 20px solid black;
+    width: 300px;
+    height: 120px;
+    top: 80vh;
+    left: 32%;
+    cursor: pointer;
+    color: f4f4f4;
+    font-size: 6rem;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.timer {
+    position: relative;
+    font-size: 500px;
+    bottom: 100px;
+}
+
+.score {
+    position: absolute;
+    font-size: 500px;
+    left:32%;
+    bottom: 50vh;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+.title {
+    position: absolute;
+    top: 300px;
+    font-size: 200px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}

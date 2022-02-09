@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Box Game</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="frame">
+
+<button value="PLAY" onclick="play()"></button>
+<audio id="audio" src="beep.wav"></audio>
+
+<audio id="myAudio">
+    <source src="blip.wav" type="audio/ogg">
+  </audio>
+
+
+</div>
+<div class="counter" >
+    <p><a id="clicks">0</a></p>
+    <div id="timer" class = "timer"></div>
+</div>
+<div class="start" id = "start">Start</div>
+<div class="score" id = "score">13</div>
+<div class="title" id = "title">Dexter's Box</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
